@@ -8,5 +8,6 @@ void main()
 	scanf("%d", &a);
 	scanf("%d", &b);
 	scanf("%d", &c);
-	printf("Uw gemiddelde is %d", (a + b + c) / 3);
+	float d = a + b + c;
+	printf("Uw gemiddelde is %f", (d) / 3);
 }
