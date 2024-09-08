@@ -6,5 +6,5 @@ void main()
 	int a;
 	printf("Voer een integers in: ");
 	scanf("%d", &a);
-	printf("Het gekwadrateerd getal is %d",a* a);
+	printf("Het gekwadrateerd getal is %d", a * a);
 }
