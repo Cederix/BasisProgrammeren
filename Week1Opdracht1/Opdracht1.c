@@ -4,7 +4,6 @@
 void main()
 {
 	int leeftijd;
-	
 	printf("Voer uw leeftijd in: ");
 	scanf("%d", &leeftijd);
 	printf("U bent %d jaar oud",leeftijd);
