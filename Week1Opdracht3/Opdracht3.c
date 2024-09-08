@@ -7,7 +7,6 @@ void main()
 	printf("Voer 2 integers in");
 	scanf("%d", &a);
 	scanf("%d", &b);
-
 	if (a > b)
 		printf("%d is groter", a);
 	else
