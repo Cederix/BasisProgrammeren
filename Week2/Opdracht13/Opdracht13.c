@@ -8,7 +8,7 @@ void main()
 	scanf("%d %d", &a, &b);
 	int c = (a % 10);
 	int d = (b % 10);
-	if (c / d == 1)
+	if (c % d == 0)
 		printf("De laatste getallen zijn gelijk!");
 	else
 		printf("De laatste getallen zijn niet gelijk!");
