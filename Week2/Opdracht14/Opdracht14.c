@@ -10,7 +10,7 @@ void main()
 	double x1 = (-b + sqrt(D)) / (2 * a);
 	if (D < 0)
 	{
-		printf("da kan niet");
+		printf("Imaginair getal!");
 	}
 	else
 	{
