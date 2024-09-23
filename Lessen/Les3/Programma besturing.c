@@ -66,7 +66,7 @@ void main()
 	
 #pragma endregion unair
 #pragma region while , for
-	int teller = 0;
+	//int teller = 0;
 	//while (teller < 100) // < 100 KEER, <= 101 keer
 	//{
 	//	printf("Tellen %d\n", teller);
@@ -83,11 +83,70 @@ void main()
 	// belangrijk voor bestanden openen
 	// kan geen do while gebruiken
 
-	for (int x = 0; x < 101; x++) // gevaarlijke for loop checkt voor x <101
-	{                             // != gaat exact kijken of het niet 100 is
-		printf("Tellen (%d)\n", x);
-	}
+	//for (int x = 0; x < 101; x++) // gevaarlijke for loop checkt voor x <101
+	//{                             // != gaat exact kijken of het niet 100 is
+	//	printf("Tellen (%d)\n", x);
+	//}
 	//int x: for(x=0;) x is geen getal global scope
 	// int x in loop x is in de for loop local scope, doe dit xd
 #pragma endregion while , for
+#pragma region break/continue
+	/*int a;
+	while (true) //microcontroller werkt met while true
+	{
+		if (a > 0) //zonder {} does if de eerste volgende regel
+		{
+			break;
+		}
+	} */
+	/*int a;
+	while (true)
+	{
+		while (true)
+		{
+			break;
+		}
+		break;
+	}*/
+/*int a;
+for (int x = 0; x < 8; x++)
+{
+	for (int y = 0; y < 8; y++) //geneste loops
+	{
+
+	}
+}*/
+/*for (int x = 0; x < 8; x++)
+{
+	for (int y = 0; y < 8; y++)
+	{
+		for (int z = 0; z < 8; z++)
+		{
+
+		}
+	}*/
+
+#pragma endregion break/continue
+#pragma region switch
+//switch (cijfer) cijfer is een ingerer
+int a;
+scanf("%d", a);
+switch (a)
+{
+	case 10;
+{
+	printf("cool");
+	break;
+}
+case 9;
+{
+
+}
+}
+#pragma endregion switch
+//conditionele operator
+// x = (y<z) ? y : z
+// if (y<z)
+// x = y
+// else x = z GROTE NEE
 }

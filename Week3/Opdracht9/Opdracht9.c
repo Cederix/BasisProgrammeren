@@ -6,13 +6,21 @@ void main()
 	int a=0, b=1;
 	printf("Voer een integer index in: ");
 	scanf("%d", &index);
-	for (index; index >= 0; --index)
+	for (index; index >= 0;index)
 	{
-		a = a + b;
+		if (index == 0)
+		{
+			printf("%d", a);
+			break;
+		}
+		--index;
 		b = a + b;
 		if(index == 0)
 		{
-			printf("%d", a);
+			printf("%d", b);
+			break;
 		}
+		a = a + b;
+		--index;
 	}
 }
