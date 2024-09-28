@@ -10,7 +10,6 @@ void main()
 		printf("Jaartal is groter dan 2000");
 		return 0;
 	}
-	printf("%d\n", a);
 	while (a - 1000 >= 0)
 	{
 		printf("M");
