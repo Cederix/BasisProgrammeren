@@ -3,7 +3,7 @@
 void main()
 {
 	int a;
-	printf("Voer een getal in: ");
+	printf("Voer een integer in: ");
 	scanf("%d", &a);
 	if (a == 2)
 	{

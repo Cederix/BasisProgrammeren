@@ -133,12 +133,12 @@ int a;
 scanf("%d", a);
 switch (a)
 {
-	case 10;
+case 10:
 {
 	printf("cool");
 	break;
 }
-case 9;
+case 9:
 {
 
 }
