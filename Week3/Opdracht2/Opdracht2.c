@@ -8,6 +8,6 @@ void main()
 	while (a <= 100)
 	{
 		printf("%d\n", a);
-		a = a * -2;
+		a = a *-2;
 	}
 }
