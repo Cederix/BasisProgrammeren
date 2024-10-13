@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void Som(int * arr , int lengte)
+int Som(int * arr , int lengte)
 {
 	int a=0;
 	for (int i = 0; i < lengte; i++)
@@ -9,12 +9,13 @@ void Som(int * arr , int lengte)
 		a += arr[i];
 		if (i+1 == lengte)
 		{
-			printf("\nDe som van de elementen = %d", a);
+			return a;
 		}
 	}
 }
 void main()
 {
 	int arr[5] = { 3,5,6,7,8,};
-	Som(arr, 5);
+	int a = Som(arr, 5);
+	printf("\nDe som van de elementen = %d", a);
 }
