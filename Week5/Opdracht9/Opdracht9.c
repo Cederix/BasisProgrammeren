@@ -15,7 +15,7 @@ int IsSchrikkel(int a)
 }
 int  eersteWeekDagMaand(int m,int y,int b)
 {
-	int arr1[12] = { 0,31,59,90,120,151,181,212,243,273,304,334};
+	int arr1[12] = { 0,31,60,90,120,152,181,212,243,273,304,334};
 	if (m < 3 && IsSchrikkel(y) == 1)
 		return (5 + b-1 +arr1[m] + 365 * y) % 7;
 	else 

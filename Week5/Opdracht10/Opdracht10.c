@@ -48,6 +48,4 @@ void main()
 		{
 			printf("%d ", MaandArray[i]);
 		}
-
-
 }
